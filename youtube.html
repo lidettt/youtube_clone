@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="search icon" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt="voice search icon"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="icons/notifications.svg"
+            alt=""
+          />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="channel-pictures/my-channel.jpeg"
+          alt=""
+        />
+      </div>
+    </header>
+
+    <!-- Side Bar -->
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <!-- Video Section -->
+    <main>
+      <section class="video-grid">
+        <!-- Video 1 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=LzMnsfqjzkA&t=6s"
+              target="_blank"
+              ><img class="thumbnail" src="Thumbnails/thumbnail-1.webp"
+            /></a>
+            <div class="video-time">47:29:21</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-pic-container">
+                <a href="https://www.youtube.com/@freecodecamp" target="_blank"
+                  ><img
+                    class="profile-picture"
+                    src="channel-pictures/channel-1.jpeg"
+                /></a>
+                <div class="author">
+                  <img src="channel-pictures/channel-1.jpeg" alt="" />
+                  <div>
+                    <p class="author-name">freeCodeCamp.org</p>
+                    <p>11.2M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=LzMnsfqjzkA&t=6s"
+                target="_blank"
+                ><p class="video-title">
+                  Become a Fullstack Developer from Scratch – Full Beginner’s
+                  Tutorial
+                </p></a
+              >
+              <p class="video-author">freeCodeCamp.org</p>
+              <p class="video-stats">329K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=H2r609EpCpY"
+              target="_blank"
+            >
+              <img class="thumbnail" src="Thumbnails/thumbnail-2.webp"
+            /></a>
+            <div class="video-time">6:37</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-pic-container">
+                <a
+                  href="https://www.youtube.com/@HauntingSuccess"
+                  target="_blank"
+                  ><img
+                    class="profile-picture"
+                    src="channel-pictures/channel-2.jpeg"
+                /></a>
+                <div class="author">
+                  <img src="channel-pictures/channel-2.jpeg" alt="" />
+                  <div>
+                    <p class="author-name">Haunting Success</p>
+                    <p>21.9K subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=H2r609EpCpY"
+                target="_blank"
+                ><p class="video-title">
+                  The Best Path To Success - Robert Greene
+                </p></a
+              >
+              <p class="video-author">Haunting Success</p>
+              <p class="video-stats">641K views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=s7wmiS2mSXY"
+              target="_blank"
+            >
+              <img class="thumbnail" src="Thumbnails/thumbnail-3.webp"
+            /></a>
+            <div class="video-time">3:25</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-pic-container">
+                <a href="https://www.youtube.com/@mulesoftvids" target="_blank"
+                  ><img
+                    class="profile-picture"
+                    src="channel-pictures/channel-3.jpeg"
+                /></a>
+                <div class="author">
+                  <img src="channel-pictures/channel-3.jpeg" alt="" />
+                  <div>
+                    <p class="author-name">MuleSoft Videos</p>
+                    <p>65.9K subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=s7wmiS2mSXY"
+                target="_blank"
+                ><p class="video-title">What is an API?</p></a
+              >
+              <p class="video-author">MuleSoft Videos</p>
+              <p class="video-stats">5.2M views &#183; 10 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 4 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=5YlJt5EYrlM&list=RD5YlJt5EYrlM&start_radio=1"
+              target="_blank"
+            >
+              <img class="thumbnail" src="Thumbnails/thumbnail-4.webp"
+            /></a>
+            <div class="video-time">3:31</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-pic-container">
+                <a href="https://www.youtube.com/@NIKIZFNY" target="_blank"
+                  ><img
+                    class="profile-picture"
+                    src="channel-pictures/channel-4.jpeg"
+                /></a>
+                <div class="author">
+                  <img src="channel-pictures/channel-4.jpeg" alt="" />
+                  <div>
+                    <p class="author-name">NIKI</p>
+                    <p>1.4M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=5YlJt5EYrlM&list=RD5YlJt5EYrlM&start_radio=1"
+                target="_blank"
+              >
+                <p class="video-title">
+                  NIKI - La La Lost You (Live) | Acoustic Sessions
+                </p></a
+              >
+              <p class="video-author">NIKI</p>
+              <p class="video-stats">44M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 5 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=TtPXvEcE11E"
+              target="_blank"
+            >
+              <img class="thumbnail" src="Thumbnails/thumbnail-5.webp"
+            /></a>
+            <div class="video-time">11:32:03</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-pic-container">
+                <a
+                  href="https://www.youtube.com/@SuperSimpleDev"
+                  target="_blank"
+                  ><img
+                    class="profile-picture"
+                    src="channel-pictures/channel-5.jpeg"
+                /></a>
+                <div class="author">
+                  <img src="channel-pictures/channel-5.jpeg" alt="" />
+                  <div>
+                    <p class="author-name">SuperSimpleDev</p>
+                    <p>721K subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=TtPXvEcE11E"
+                target="_blank"
+              >
+                <p class="video-title">
+                  React Tutorial Full Course - Beginner to Pro (React 19, 2025)
+                </p></a
+              >
+              <p class="video-author">SuperSimpleDev</p>
+              <p class="video-stats">125K views &#183; 3 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 6 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=b9eMGE7QtTk"
+              target="_blank"
+            >
+              <img class="thumbnail" src="Thumbnails/thumbnail-6.webp"
+            /></a>
+            <div class="video-time">1:11:43</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-pic-container">
+                <a
+                  href="https://www.youtube.com/@javascriptmastery"
+                  target="_blank"
+                  ><img
+                    class="profile-picture"
+                    src="channel-pictures/channel-6.jpeg"
+                /></a>
+                <div class="author">
+                  <img src="channel-pictures/channel-6.jpeg" alt="" />
+                  <div>
+                    <p class="author-name">JavaScript Mastery</p>
+                    <p>1.17M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=b9eMGE7QtTk"
+                target="_blank"
+              >
+                <p class="video-title">
+                  React JS Full Course | Build an App and Master React in 1 Hour
+                </p></a
+              >
+              <p class="video-author">JavaScript Mastery</p>
+              <p class="video-stats">2M views &#183; 3 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 7 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=G3e-cpL7ofc"
+              target="_blank"
+            >
+              <img class="thumbnail" src="Thumbnails/thumbnail-7.webp"
+            /></a>
+            <div class="video-time">6:31:23</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-pic-container">
+                <a
+                  href="https://www.youtube.com/@SuperSimpleDev"
+                  target="_blank"
+                  ><img
+                    class="profile-picture"
+                    src="channel-pictures/my-channel.jpeg"
+                /></a>
+                <div class="author">
+                  <img src="channel-pictures/my-channel.jpeg" alt="" />
+                  <div>
+                    <p class="author-name">SuperSimpleDev</p>
+                    <p>473K subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=G3e-cpL7ofc"
+                target="_blank"
+              >
+                <p class="video-title">
+                  HTML & CSS Full Course - Beginner to Pro
+                </p></a
+              >
+              <p class="video-author">SuperSimpleDev</p>
+              <p class="video-stats">10M views &#183; 2 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 8 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=xBJ4YkQq1i8&list=RDxBJ4YkQq1i8&start_radio=1"
+              target="_blank"
+            >
+              <img class="thumbnail" src="Thumbnails/thumbnail-8.webp"
+            /></a>
+            <div class="video-time">4:45</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-pic-container">
+                <a
+                  href="https://www.youtube.com/channel/UCKJg5mkBn18dtRFWUy_v1mw"
+                  target="_blank"
+                  ><img
+                    class="profile-picture"
+                    src="channel-pictures/channel-8.jpg"
+                /></a>
+                <div class="author">
+                  <img src="channel-pictures/channel-8.jpg" alt="" />
+                  <div>
+                    <p class="author-name">Daniel Caesar</p>
+                    <p>2.44M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=xBJ4YkQq1i8&list=RDxBJ4YkQq1i8&start_radio=1"
+                target="_blank"
+              >
+                <p class="video-title">Hold Me Down</p></a
+              >
+              <p class="video-author">Daniel Caesar</p>
+              <p class="video-stats">17M views &#183; 7 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
