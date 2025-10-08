@@ -2,6 +2,8 @@
 
 A static web page inspired by YouTube’s homepage, built using **HTML** and **CSS**.
 
+![Youtube Clone Screenshot](screenshot.png)
+
 ## Overview
 
 This project replicates YouTube’s layout to practice front-end structure and responsive web design principles.
